@@ -1,0 +1,109 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5,.pimg6,.pimg7,.pimg8{
+  background-position:center;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/Monster2.JPG');
+  height: 100vh;
+}
+
+.pimg2{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/mypug.jpg');
+  height: 100vh;
+}
+
+.pimg3{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/beach 1.JPG');
+  height: 100vh;
+}
+
+.pimg4{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/new_born.jpg');
+  height: 100vh;
+}
+.pimg5{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/P1030334.JPG');
+  height: 100vh;
+}
+
+.pimg6{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/P1100636.JPG');
+  height: 100%;
+}
+
+.pimg7{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/P1080247.JPG');
+  height: 100vh;
+}
+
+.pimg8{
+  background-image:url('/Users/soheima/Downloads/parallaxwebsite/img/snowy9.jpg');
+  height: 100vh;
+}
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+
+.ptext{
+  position:absolute;
+  top:5%;
+  width:100%;
+  text-align:left;
+  margin-left: 6%;
+  color:#fff;
+  font-size:27px;
+  letter-spacing:8px;
+}
+P{
+  font-size:20px;
+  letter-spacing:1px;
+}
+footer{
+  position:absolute;
+  margin-left: -12%;
+  margin: 0;
+  margin-top: 50%;
+  font: inherit;
+  width:100%;
+}
+a:link{
+  text-decoration:  none;
+  font: inherit;
+  color: white;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
